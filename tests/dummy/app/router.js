@@ -9,4 +9,5 @@ export default Router.map(function() {
   this.route('index', { path: '/' });
   this.route('item.show');
   this.route('slideBox');
+  this.route('menu');
 });
