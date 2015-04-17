@@ -1,3 +1,6 @@
+<ion-loading loading={{isLoading}}>
+  LOADING SHIT
+</ion-loading>
 <ion-header kind="light">Header</ion-header>
 <ion-content header=true footer=true>
   <ion-button block=true>ohai</ion-button>
@@ -5,9 +8,8 @@
     <ion-checkbox>
       Flux Capacitor
     </ion-checkbox>
-
-    <ion-toggle>
-      Web Components
+    <ion-toggle checked={{isLoading}}>
+      Toggle Loading
     </ion-toggle>
 
     <a class="item item-icon-left item-icon-right" href="#">
